@@ -1,0 +1,5 @@
+#avoid generated and instlled files#
+.idea/
+node_modules
+*.html
+*.pdf
