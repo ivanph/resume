@@ -2,8 +2,8 @@
 ## Software Developer
 
 ------
-I have been working as a developer, professionally, for about 4 years. My experience has been a mix of web development and native applications, primarily in Node.js, Qt , Java and PHP.
-I currently focus on building backend services using Node.js. I have worked with frameworks such as Restify, Express, Hapi, Angular and React.
+I have been working as a professional developer for about 5 years. My experience has been a mix of web development and native applications, primarily in Node.js, Qt , Java and PHP.
+I currently focus on building backend services using Node.js but I'm always open to learning new technologies. I have worked with frameworks such as Restify, Express, Hapi, Angular and React.
 
 > [github.com/ivanph](https://github.com/ivanph)
 > [ivan.pintadoh@gmail.com](mailto:ivan.pintadoh@gmail.com)
