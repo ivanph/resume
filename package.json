@@ -8,6 +8,6 @@
     "create-html": "md2resume resume.md"
   },
   "dependencies": {
-    "markdown-resume": "^0.1.0"
+    "markdown-resume": "0.1.0"
   }
 }
