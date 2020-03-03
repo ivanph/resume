@@ -1,4 +1,4 @@
-Resume in Markdown format, this use the markdown-resume module to convert markdown to html and PDF.
+Use jsonresume to export a resume to PDF or HTML.
 
 ## Usage
 
@@ -8,10 +8,10 @@ The generated files will be put in the same directory as the resume.pdf file.
     npm install
 
     # Generate HTML and PDF files
-    npm run create
+    npm run export
 
     # Generate PDF file
-    npm run create-pdf
+    npm run export:pdf
 
     # Generate HTML file
-    npm run create-html
+    npm run export:html

@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "Ivan Pintado",
+    "label": "Senior Software Engineer",
+    "picture": "",
+    "email": "ivan.pintadoh@gmail.com",
+    "website": "https://ivanph.dev",
+    "summary": "I've been working as a professional developer since 2012. My experience has been a mix\nof native applications, web development, and mobile, primarily in Node.js, Qt, Java and Kotlin. I currently focus on building backend services using Node.js but I'm always open to learning new technologies.",
+    "location": {
+      "city": "Irvine",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ivanph",
+        "url": "https://github.com/ivanph"
+      },
+      {
+        "network": "Twitter",
+        "username": "ivanph",
+        "url": "https://twitter.com/ivanph"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Cercacor Labs",
+      "position": "Senior Software Engineer (Mobile/Backend)",
+      "startDate": "2018-05-01",
+      "summary": "Our most recent project focuses on creating a lifestyle application focused on people that are pre-diabetics or diabetics. It offers meal tracking, insulin and glucose monitoring and educational content.",
+      "highlights": [
+        "Lead backend developer, focusing more on system architecture, design and code reviews.",
+        "Interviewed candidates for our backed team and provided hiring feedback.",
+        "Started development on the Android app, leveraging modern Android architecture and Kotlin.",
+        "Provided support for the iOS team, helping them debug issues when using our REST API."
+      ]
+    },
+    {
+      "company": "Cercacor Labs",
+      "position": "Software Engineer (Backend)",
+      "startDate": "2014-04-01",
+      "endDate": "2018-05-01",
+      "summary": "Ember is a non-invasive tracker that helps high performance athletes monitor their oxygen levels, pulse rate variability and others. ",
+      "highlights": [
+        "Main developer for the backend system that allowed users to create accounts and synchronize measurement data.",
+        "Designed our cloud architecture using AWS while maintaining a low operation cost.",
+        "Successfully migrated our data with zero downtime from MongoDB to Postgres.",
+        "Created data pipelines to anonymize and copy measurements for data analysis.",
+        "Led the development in porting our iOS app to Android using React Native",
+        "The tech stack included Node, Postgres, MongoDB, Couchbase and iOS/Android"
+      ]
+    },
+    {
+      "company": "Cercacor Labs",
+      "position": "Software Engineer (Native apps)",
+      "startDate": "2012-08-01",
+      "endDate": "2014-04-01",
+      "summary": "Apps and middleware developer for a medical device and tablet hybrid. The device was capable of taking glucose measurements, pulse rate, and others.",
+      "highlights": [
+        "Developed common apps from scratch for our custom Linux OS, such as a wifi settings, calculator, phone and contacts.",
+        "Contributed to middleware layer design and integration.",
+        "Designed and implemented connectivity system integration for phone, wifi and data using libraries such as connman, ofono and bluz."
+      ]
+    },
+    {
+      "company": "University of Veracruz",
+      "position": "Web Developer",
+      "startDate": "2012-02-01",
+      "endDate": "2012-08-01",
+      "summary": "The university embarked on a massive migration of all it's web pages from a custom CMS to Wordpress. I provided custom plugins and web pages to feed the needs of different departments.",
+      "highlights": [
+        "Develop custom plugins to provide directions and weather information.",
+        "Created custom widgets for site admins to configure the plugins."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": [
+        "Nodejs (Hapi, Express, Restify)",
+        "Postgres",
+        "MongoDB",
+        "Couchbase",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React",
+        "HTML",
+        "CSS",
+        "JavaScript"
+
+      ]
+    },
+    {
+      "name": "Mobile",
+      "keywords": [
+        "Kotlin",
+        "Java",
+        "Swift",
+        "Objective-C",
+        "React Native"
+      ]
+    },
+    {
+      "name": "General",
+      "keywords": [
+        "C++ (Qt)",
+        "Linux",
+        "Bash",
+        "Git",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ]
+}

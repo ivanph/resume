@@ -1,13 +1,17 @@
 {
   "name": "resume",
-  "version": "1.0.0",
-  "description": "Markdown based resume",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "description": "JSON based resume",
   "scripts": {
-    "create": "npm run create-pdf && npm run create-html",
-    "create-pdf": "md2resume --pdf resume.md",
-    "create-html": "md2resume resume.md"
+    "export": "npm run export:html && npm run export:pdf",
+    "export:pdf": "npx resume export resume.pdf --theme onepage",
+    "export:html": "npx resume export resume.html --theme onepage"
   },
   "dependencies": {
-    "markdown-resume": "0.1.0"
+    "jsonresume-theme-onepage": "git+https://github.com/ivanph/jsonresume-theme-onepage.git",
+    "resume-cli": "^1.2.7"
   }
 }
