@@ -92,6 +92,13 @@
       ]
     }
   ],
+  "education": [{
+    "institution": "Universidad Veracruzana",
+    "area": "Software Engineering",
+    "studyType": "Bachelor",
+    "startDate": "2007-06-01",
+    "endDate": "2012-02-01"
+  }],
   "skills": [
     {
       "name": "Backend",
@@ -132,16 +139,6 @@
         "Git",
         "Docker"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Full professional proficiency"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
     }
   ]
 }
