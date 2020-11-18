@@ -20,14 +20,30 @@
         "network": "Twitter",
         "username": "ivanph",
         "url": "https://twitter.com/ivanph"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Linkedin",
+        "url": "https://www.linkedin.com/in/ivan-pintado/"
       }
     ]
   },
   "work": [
     {
+      "company": "Medl Mobile",
+      "position": "Software Engineer",
+      "startDate": "2020-07-10",
+      "summary": "Working on a variety of projects, mostly focused on Web and Mobile with React (Native)",
+      "highlights": [
+        "Implemented a MediaUploader component that allows user to upload videos or photos",
+        "Created a native module that allows us to encode video on Android before ulpload to reduce the size"
+      ]
+    },
+    {
       "company": "Cercacor Labs",
       "position": "Senior Software Engineer (Mobile/Backend)",
       "startDate": "2018-05-01",
+      "endDate": "2020-05-01",
       "summary": "Our most recent project focuses on creating a lifestyle application focused on people that are pre-diabetics or diabetics. It offers meal tracking, insulin and glucose monitoring and educational content.",
       "highlights": [
         "Lead backend developer, focusing more on system architecture, design and code reviews.",
