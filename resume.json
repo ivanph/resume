@@ -30,17 +30,6 @@
   },
   "work": [
     {
-      "company": "Medl Mobile",
-      "position": "Software Engineer",
-      "startDate": "2020-07-10",
-      "endDate": "2020-12-01",
-      "summary": "Working on a variety of projects, mostly focused on Web and Mobile with React (Native)",
-      "highlights": [
-        "Implemented a MediaUploader component that allows user to upload videos or photos",
-        "Created a native module that allows us to encode video on Android before ulpload to reduce the size"
-      ]
-    },
-    {
       "company": "Endpoint",
       "position": "Staff Software Engineer",
       "startDate": "2025-08-01",
@@ -62,6 +51,17 @@
         "Built a relationship system for hierarchical contact management with dynamic transaction-based conditions",
         "Improved engineering quality within the team through guidance and best practices",
         "Identified and removed several N+1 query issues in our GraphQL BFF, providing guidelines to avoid common pitfalls"
+      ]
+    },
+    {
+      "company": "Medl Mobile",
+      "position": "Software Engineer",
+      "startDate": "2020-07-10",
+      "endDate": "2020-12-01",
+      "summary": "Working on a variety of projects, mostly focused on Web and Mobile with React (Native)",
+      "highlights": [
+        "Implemented a MediaUploader component that allows user to upload videos or photos",
+        "Created a native module that allows us to encode video on Android before ulpload to reduce the size"
       ]
     },
     {
