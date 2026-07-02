@@ -117,47 +117,5 @@
     "studyType": "Bachelor",
     "startDate": "2007-06-01",
     "endDate": "2012-02-01"
-  }],
-  "skills": [
-    {
-      "name": "Backend",
-      "keywords": [
-        "Nodejs (Hapi, Express, Restify)",
-        "Postgres",
-        "MongoDB",
-        "Couchbase",
-        "Redis"
-      ]
-    },
-    {
-      "name": "Frontend",
-      "keywords": [
-        "React",
-        "HTML",
-        "CSS",
-        "JavaScript"
-
-      ]
-    },
-    {
-      "name": "Mobile",
-      "keywords": [
-        "Kotlin",
-        "Java",
-        "Swift",
-        "Objective-C",
-        "React Native"
-      ]
-    },
-    {
-      "name": "General",
-      "keywords": [
-        "C++ (Qt)",
-        "Linux",
-        "Bash",
-        "Git",
-        "Docker"
-      ]
-    }
-  ]
+  }]
 }
