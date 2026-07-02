@@ -16,16 +16,11 @@
         "username": "ivanph",
         "url": "https://github.com/ivanph"
       },
-      {
-        "network": "Twitter",
-        "username": "ivanph",
-        "url": "https://twitter.com/ivanph"
-      },
-      {
-        "network": "Linkedin",
-        "username": "Linkedin",
-        "url": "https://www.linkedin.com/in/ivan-pintado/"
-      }
+    {
+      "network": "Linkedin",
+      "username": "Linkedin",
+      "url": "https://www.linkedin.com/in/ivan-pintado/"
+    }
     ]
   },
   "work": [
