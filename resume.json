@@ -5,7 +5,7 @@
     "picture": "",
     "email": "ivan.pintadoh@gmail.com",
     "website": "https://ivanph.dev",
-    "summary": "I've been working as a professional developer since 2012. My experience has been a mix\nof native applications, web development, and mobile, primarily in Node.js, Qt, Java and Kotlin. I currently focus on building backend services using Node.js but I'm always open to learning new technologies.",
+    "summary": "Experienced senior software engineer skilled in building distributed systems, mobile applications, and developer platforms. Currently serving as Staff Software Engineer at Endpoint, where I lead backend architecture and AI integrations for the customer platform. Proficient with Node.js, GraphQL, cloud infrastructure, and mobile development (Android/Kotlin, React Native). Passionate about system design, engineering quality, and mentoring teams.",
     "location": {
       "city": "Los Angeles",
       "region": "California"
@@ -44,7 +44,7 @@
       "company": "Endpoint",
       "position": "Staff Software Engineer",
       "startDate": "2025-08-01",
-      "summary": "Technical lead on a team building the next generation of our customer platform. Provide overall architectural feedback to a team of senior and mid-level engineers. Main backend developer for integrations with the wider organization's services. Work closely with management and product on the overall direction of the product and evaluation of new features. Develop AI-oriented integrations, including several MCP tools, agentic workflows, and prompt structures.",
+      "summary": "Technical lead on a team building the next generation of our customer platform. Provide overall architectural feedback to a team of senior and mid-level engineers. Main backend developer for integrations with the wider organization's distributed systems. Work closely with management and product on the overall direction of the product and evaluation of new features. Develop AI-oriented integrations, including several MCP tools, agentic workflows, and prompt structures.",
       "highlights": [
         "Technical lead on the next-generation customer platform",
         "Provided architectural guidance to a team of senior and mid-level engineers",
