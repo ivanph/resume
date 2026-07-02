@@ -42,7 +42,7 @@
       "endDate": "2025-08-01",
       "summary": "Our team focused on providing contacts management for our whole platform. This included interactions from almost every other service and clients both internal and external.",
       "highlights": [
-        "Built a relationship system for hierarchical contact management with dynamic transaction-based conditions",
+        "Built a relationship system for hierarchical contact management with dynamic transaction-based conditions, reducing errors from manual contact aggregation and improving transaction turnaround time",
         "Improved engineering quality within the team through guidance and best practices",
         "Identified and removed several N+1 query issues in our GraphQL BFF, providing guidelines to avoid common pitfalls"
       ]
