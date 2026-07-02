@@ -33,13 +33,7 @@
       "company": "Endpoint",
       "position": "Staff Software Engineer",
       "startDate": "2025-08-01",
-      "summary": "Technical lead on a team building the next generation of our customer platform. Provide overall architectural feedback to a team of senior and mid-level engineers. Main backend developer for integrations with the wider organization's distributed systems. Work closely with management and product on the overall direction of the product and evaluation of new features. Develop AI-oriented integrations, including several MCP tools, agentic workflows, and prompt structures.",
-      "highlights": [
-        "Delivered the customer platform rewrite from initial architecture to production launch, coordinating across multiple engineering teams",
-        "Designed and deployed a service integration framework adopted by several internal teams for cross-platform communication",
-        "Built MCP-based AI tool integrations enabling automated customer data workflows and reducing manual data entry",
-        "Established RFC-driven architectural review process for the platform team, improving cross-team design consistency"
-      ]
+      "summary": "Technical lead on a team building the next generation of our customer platform. Provide overall architectural feedback to a team of senior and mid-level engineers. Main backend developer for integrations with the wider organization's distributed systems. Work closely with management and product on the overall direction of the product and evaluation of new features. Develop AI-oriented integrations, including several MCP tools, agentic workflows, and prompt structures."
     },
     {
       "company": "Endpoint",
