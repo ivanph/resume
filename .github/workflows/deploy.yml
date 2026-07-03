@@ -1,0 +1,68 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install puppeteer system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+            libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - run: npm ci
+
+      - name: Patch resume-cli for print media PDF output
+        run: |
+          sed -i "s/emulateMedia(themePkg.pdfRenderOptions.*)/emulateMedia('print')/" \
+            node_modules/resume-cli/lib/export-resume/index.js
+
+      - run: npm run export:html
+
+      - name: Generate PDF
+        run: npm run export:pdf
+
+      - name: Checkout pages repo
+        uses: actions/checkout@v4
+        with:
+          repository: ivanph/ivanph.github.io
+          token: ${{ secrets.GH_PAT }}
+          path: pages
+
+      - name: Copy resume files to pages
+        run: |
+          cp resume.html pages/index.html
+          cp resume.pdf pages/resume.pdf
+
+      - name: Add PDF download link to index.html
+        run: |
+          cd pages
+          if ! grep -q "Download PDF" index.html; then
+            sed -i '/linkedin.com\/in\/ivan-pintado/a \            <span class="divider">|<\/span>\n            <span class="url">\n              <a href="resume.pdf">Download PDF<\/a>\n            <\/span>' index.html
+          fi
+
+      - name: Commit and push to pages repo
+        run: |
+          cd pages
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add index.html resume.pdf
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-deploy resume from ivanph/resume@${{ github.sha }}"
+            git push
+          else
+            echo "No changes to commit"
+          fi

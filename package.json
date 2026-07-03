@@ -7,7 +7,7 @@
   "description": "JSON based resume",
   "scripts": {
     "export": "npm run export:html && npm run export:pdf",
-    "export:pdf": "npx resume export resume.pdf --theme onepage",
+    "export:pdf": "RESUME_PUPPETEER_NO_SANDBOX=true npx resume export resume.pdf --theme onepage",
     "export:html": "npx resume export resume.html --theme onepage"
   },
   "dependencies": {
